@@ -25,6 +25,4 @@ U 5EACE430
 F0 "FET_drive" 50
 F1 "FET_drive.sch" 50
 $EndSheet
-Text Notes 1600 2750 0    394  ~ 0
-This project created for make\nBLCD motor controller
 $EndSCHEMATC
