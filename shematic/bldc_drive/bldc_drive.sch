@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -27,4 +27,10 @@ F1 "FET_drive.sch" 50
 $EndSheet
 Text Notes 1600 2750 0    394  ~ 0
 This project created for make\nBLCD motor controller
+$Sheet
+S 12550 3450 1200 650 
+U 5EB1ABF5
+F0 "interfaces" 50
+F1 "interfaces.sch" 50
+$EndSheet
 $EndSCHEMATC
