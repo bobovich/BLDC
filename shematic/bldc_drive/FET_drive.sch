@@ -395,8 +395,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 6900 1750 50  0001 C CNN
 	1    6900 1750
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6800 5450 7300 5450
 Text GLabel 6800 5450 0    50   Input ~ 0
 LOCK_H
 Connection ~ 7700 5450
@@ -1045,15 +1043,6 @@ V_POW_MEAS
 Wire Wire Line
 	5500 6400 5250 6400
 Connection ~ 5250 6400
-$Comp
-L power:+12V #PWR?
-U 1 1 5EC00656
-P 5100 4300
-F 0 "#PWR?" H 5100 4150 50  0001 C CNN
-F 1 "+12V" H 5115 4473 50  0000 C CNN
-F 2 "" H 5100 4300 50  0001 C CNN
-F 3 "" H 5100 4300 50  0001 C CNN
-	1    5100 4300
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	6800 5450 7300 5450
 $EndSCHEMATC
