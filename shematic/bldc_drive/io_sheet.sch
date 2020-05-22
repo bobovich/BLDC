@@ -1,0 +1,602 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Diode:DZ2S033X0L D?
+U 1 1 5ED090BB
+P 2250 2550
+AR Path="/5EB1ABF5/5ED090BB" Ref="D?"  Part="1" 
+AR Path="/5ED063DC/5ED090BB" Ref="D8"  Part="1" 
+F 0 "D8" V 2150 2400 50  0000 L CNN
+F 1 "DZ2S033X0L" V 2750 2400 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 2250 2375 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03300L_E.pdf" H 2250 2550 50  0001 C CNN
+	1    2250 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5ED090C1
+P 2500 2550
+AR Path="/5EB1ABF5/5ED090C1" Ref="C?"  Part="1" 
+AR Path="/5ED063DC/5ED090C1" Ref="C16"  Part="1" 
+F 0 "C16" H 2615 2596 50  0000 L CNN
+F 1 "100n" H 2615 2505 50  0000 L CNN
+F 2 "" H 2538 2400 50  0001 C CNN
+F 3 "~" H 2500 2550 50  0001 C CNN
+	1    2500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED090C7
+P 2800 2100
+AR Path="/5EB1ABF5/5ED090C7" Ref="R?"  Part="1" 
+AR Path="/5ED063DC/5ED090C7" Ref="R36"  Part="1" 
+F 0 "R36" H 2730 2054 50  0000 R CNN
+F 1 "4k7" H 2730 2145 50  0000 R CNN
+F 2 "" V 2730 2100 50  0001 C CNN
+F 3 "~" H 2800 2100 50  0001 C CNN
+	1    2800 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED090CD
+P 2800 2550
+AR Path="/5EB1ABF5/5ED090CD" Ref="R?"  Part="1" 
+AR Path="/5ED063DC/5ED090CD" Ref="R37"  Part="1" 
+F 0 "R37" H 2730 2504 50  0000 R CNN
+F 1 "2k2" H 2730 2595 50  0000 R CNN
+F 2 "" V 2730 2550 50  0001 C CNN
+F 3 "~" H 2800 2550 50  0001 C CNN
+	1    2800 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 2700 2250 2850
+Wire Wire Line
+	2250 2850 2500 2850
+Wire Wire Line
+	2800 2850 2800 2700
+Wire Wire Line
+	2500 2700 2500 2850
+Connection ~ 2500 2850
+Wire Wire Line
+	2500 2850 2800 2850
+Wire Wire Line
+	2250 2400 2250 2300
+Wire Wire Line
+	2250 2300 2500 2300
+Wire Wire Line
+	2800 2300 2800 2400
+Wire Wire Line
+	2800 2250 2800 2300
+Connection ~ 2800 2300
+Wire Wire Line
+	2500 2400 2500 2300
+Connection ~ 2500 2300
+Wire Wire Line
+	2500 2300 2800 2300
+$Comp
+L power:GND #PWR?
+U 1 1 5ED090E1
+P 2800 2850
+AR Path="/5EB1ABF5/5ED090E1" Ref="#PWR?"  Part="1" 
+AR Path="/5ED063DC/5ED090E1" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 2800 2600 50  0001 C CNN
+F 1 "GND" H 2805 2677 50  0000 C CNN
+F 2 "" H 2800 2850 50  0001 C CNN
+F 3 "" H 2800 2850 50  0001 C CNN
+	1    2800 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 2850
+Text GLabel 2800 1950 1    50   Input ~ 0
+ANALOG_IN
+Text GLabel 2500 1950 1    50   Input ~ 0
+V_ANALOG_IO
+Wire Wire Line
+	2500 1950 2500 2300
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5ED191D1
+P 9950 1150
+AR Path="/5EB1ABF5/5ED191D1" Ref="J?"  Part="1" 
+AR Path="/5ED063DC/5ED191D1" Ref="J3"  Part="1" 
+F 0 "J3" H 10058 1431 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 10058 1340 50  0000 C CNN
+F 2 "" H 9950 1150 50  0001 C CNN
+F 3 "~" H 9950 1150 50  0001 C CNN
+	1    9950 1150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 1350 9750 2600
+Wire Wire Line
+	8200 2600 8550 2600
+Wire Wire Line
+	8200 2450 8200 2600
+Connection ~ 8200 2600
+Wire Wire Line
+	8000 2600 8200 2600
+Wire Wire Line
+	8000 2450 8000 2600
+Wire Wire Line
+	8200 1900 9100 1900
+Wire Wire Line
+	8200 2150 8200 1900
+Connection ~ 8200 1900
+Wire Wire Line
+	8000 1900 8200 1900
+Wire Wire Line
+	8000 2150 8000 1900
+Connection ~ 8000 1900
+Wire Wire Line
+	7800 1900 8000 1900
+Wire Wire Line
+	7800 2000 8550 2000
+Connection ~ 8550 2000
+Wire Wire Line
+	8550 2150 8550 2000
+Wire Wire Line
+	8550 2450 8550 2600
+$Comp
+L Device:C C?
+U 1 1 5ED191E8
+P 8200 2300
+AR Path="/5EB1ABF5/5ED191E8" Ref="C?"  Part="1" 
+AR Path="/5ED063DC/5ED191E8" Ref="C20"  Part="1" 
+F 0 "C20" H 8315 2346 50  0000 L CNN
+F 1 "1u" H 8315 2255 50  0000 L CNN
+F 2 "" H 8238 2150 50  0001 C CNN
+F 3 "~" H 8200 2300 50  0001 C CNN
+	1    8200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5ED191EE
+P 8550 2300
+AR Path="/5EB1ABF5/5ED191EE" Ref="C?"  Part="1" 
+AR Path="/5ED063DC/5ED191EE" Ref="C21"  Part="1" 
+F 0 "C21" H 8665 2346 50  0000 L CNN
+F 1 "1u" H 8665 2255 50  0000 L CNN
+F 2 "" H 8588 2150 50  0001 C CNN
+F 3 "~" H 8550 2300 50  0001 C CNN
+	1    8550 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 2000 9450 1900
+Connection ~ 9450 2000
+Wire Wire Line
+	9450 2050 9450 2000
+Wire Wire Line
+	8550 2000 8850 2000
+Wire Wire Line
+	8850 2000 9450 2000
+Connection ~ 8850 2000
+Wire Wire Line
+	8850 2150 8850 2000
+Wire Wire Line
+	8850 2450 8850 2600
+Connection ~ 8850 2600
+Connection ~ 8550 2600
+Wire Wire Line
+	8550 2600 8850 2600
+$Comp
+L Diode:DZ2S033X0L D?
+U 1 1 5ED191FF
+P 8850 2300
+AR Path="/5EB1ABF5/5ED191FF" Ref="D?"  Part="1" 
+AR Path="/5ED063DC/5ED191FF" Ref="D16"  Part="1" 
+F 0 "D16" V 8750 2200 50  0000 L CNN
+F 1 "DZ2S033X0L" V 9350 2350 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 8850 2125 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03300L_E.pdf" H 8850 2300 50  0001 C CNN
+	1    8850 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:DZ2S033X0L D?
+U 1 1 5ED19205
+P 8000 2300
+AR Path="/5EB1ABF5/5ED19205" Ref="D?"  Part="1" 
+AR Path="/5ED063DC/5ED19205" Ref="D14"  Part="1" 
+F 0 "D14" V 7900 2150 50  0000 L CNN
+F 1 "DZ2S033X0L" V 8500 2150 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 8000 2125 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03300L_E.pdf" H 8000 2300 50  0001 C CNN
+	1    8000 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 1250 9750 1250
+Wire Wire Line
+	9100 1250 9100 800 
+Connection ~ 9100 1250
+Wire Wire Line
+	9100 1600 9100 1250
+Wire Wire Line
+	9450 2700 9450 2600
+Wire Wire Line
+	9750 2600 9450 2600
+Connection ~ 9450 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5ED19212
+P 9450 2700
+AR Path="/5EB1ABF5/5ED19212" Ref="#PWR?"  Part="1" 
+AR Path="/5ED063DC/5ED19212" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 9450 2450 50  0001 C CNN
+F 1 "GND" H 9455 2527 50  0000 C CNN
+F 2 "" H 9450 2700 50  0001 C CNN
+F 3 "" H 9450 2700 50  0001 C CNN
+	1    9450 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 2000 0    50   Input ~ 0
+Vin
+Text GLabel 7800 1900 0    50   Input ~ 0
+Vin_ref
+Wire Wire Line
+	9450 1050 9750 1050
+Wire Wire Line
+	9450 1600 9450 1050
+$Comp
+L power:+12V #PWR?
+U 1 1 5ED1921C
+P 9100 800
+AR Path="/5EB1ABF5/5ED1921C" Ref="#PWR?"  Part="1" 
+AR Path="/5ED063DC/5ED1921C" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 9100 650 50  0001 C CNN
+F 1 "+12V" H 9115 973 50  0000 C CNN
+F 2 "" H 9100 800 50  0001 C CNN
+F 3 "" H 9100 800 50  0001 C CNN
+	1    9100 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2050 9100 1900
+Wire Wire Line
+	9450 2600 9450 2350
+Wire Wire Line
+	8850 2600 9100 2600
+Wire Wire Line
+	9100 2600 9450 2600
+Connection ~ 9100 2600
+Wire Wire Line
+	9100 2350 9100 2600
+$Comp
+L Device:R R?
+U 1 1 5ED19228
+P 9100 2200
+AR Path="/5EB1ABF5/5ED19228" Ref="R?"  Part="1" 
+AR Path="/5ED063DC/5ED19228" Ref="R46"  Part="1" 
+F 0 "R46" H 9030 2154 50  0000 R CNN
+F 1 "2k2" H 9030 2245 50  0000 R CNN
+F 2 "" V 9030 2200 50  0001 C CNN
+F 3 "~" H 9100 2200 50  0001 C CNN
+	1    9100 2200
+	-1   0    0    1   
+$EndComp
+Connection ~ 9100 1900
+$Comp
+L Device:R R?
+U 1 1 5ED1922F
+P 9100 1750
+AR Path="/5EB1ABF5/5ED1922F" Ref="R?"  Part="1" 
+AR Path="/5ED063DC/5ED1922F" Ref="R45"  Part="1" 
+F 0 "R45" H 9030 1704 50  0000 R CNN
+F 1 "4k7" H 9030 1795 50  0000 R CNN
+F 2 "" V 9030 1750 50  0001 C CNN
+F 3 "~" H 9100 1750 50  0001 C CNN
+	1    9100 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED19235
+P 9450 2200
+AR Path="/5EB1ABF5/5ED19235" Ref="R?"  Part="1" 
+AR Path="/5ED063DC/5ED19235" Ref="R48"  Part="1" 
+F 0 "R48" H 9380 2154 50  0000 R CNN
+F 1 "2k2" H 9380 2245 50  0000 R CNN
+F 2 "" V 9380 2200 50  0001 C CNN
+F 3 "~" H 9450 2200 50  0001 C CNN
+	1    9450 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED1923B
+P 9450 1750
+AR Path="/5EB1ABF5/5ED1923B" Ref="R?"  Part="1" 
+AR Path="/5ED063DC/5ED1923B" Ref="R47"  Part="1" 
+F 0 "R47" H 9380 1704 50  0000 R CNN
+F 1 "4k7" H 9380 1795 50  0000 R CNN
+F 2 "" V 9380 1750 50  0001 C CNN
+F 3 "~" H 9450 1750 50  0001 C CNN
+	1    9450 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:BSC440N10NS3G Q8
+U 1 1 5ED23A91
+P 1450 5000
+F 0 "Q8" H 1655 5000 50  0000 L CNN
+F 1 "BSC440N10NS3G" H 1654 4955 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 1650 4925 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56" V 1450 5000 50  0001 L CNN
+	1    1450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0166
+U 1 1 5ED28B43
+P 1550 5200
+F 0 "#PWR0166" H 1550 4950 50  0001 C CNN
+F 1 "GND" H 1555 5027 50  0000 C CNN
+F 2 "" H 1550 5200 50  0001 C CNN
+F 3 "" H 1550 5200 50  0001 C CNN
+	1    1550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 5ED28E33
+P 1100 5000
+F 0 "R34" V 893 5000 50  0000 C CNN
+F 1 "R" V 984 5000 50  0000 C CNN
+F 2 "" V 1030 5000 50  0001 C CNN
+F 3 "~" H 1100 5000 50  0001 C CNN
+	1    1100 5000
+	0    1    1    0   
+$EndComp
+Text GLabel 1550 4500 1    50   Input ~ 0
+OD_OUT_1
+Text GLabel 950  4500 1    50   Input ~ 0
+OD_OUT_1_MCU
+$Comp
+L Diode:1N4148W D6
+U 1 1 5ED2B8C1
+P 950 4650
+F 0 "D6" V 996 4570 50  0000 R CNN
+F 1 "1N4148W" V 905 4570 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 950 4475 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 950 4650 50  0001 C CNN
+	1    950  4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  4800 950  5000
+$Comp
+L Transistor_FET:2N7002 Q11
+U 1 1 5ED2F8C8
+P 3100 4950
+F 0 "Q11" H 3304 4996 50  0000 L CNN
+F 1 "2N7002" H 3304 4905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3300 4875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3100 4950 50  0001 L CNN
+	1    3100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q12
+U 1 1 5ED330DD
+P 4500 4950
+F 0 "Q12" H 4704 4996 50  0000 L CNN
+F 1 "2N7002" H 4704 4905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4700 4875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4500 4950 50  0001 L CNN
+	1    4500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0167
+U 1 1 5ED3604A
+P 3200 5350
+F 0 "#PWR0167" H 3200 5100 50  0001 C CNN
+F 1 "GND" H 3205 5177 50  0000 C CNN
+F 2 "" H 3200 5350 50  0001 C CNN
+F 3 "" H 3200 5350 50  0001 C CNN
+	1    3200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0168
+U 1 1 5ED362F5
+P 4600 5350
+F 0 "#PWR0168" H 4600 5100 50  0001 C CNN
+F 1 "GND" H 4605 5177 50  0000 C CNN
+F 2 "" H 4600 5350 50  0001 C CNN
+F 3 "" H 4600 5350 50  0001 C CNN
+	1    4600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5150 3200 5250
+Wire Wire Line
+	4600 5150 4600 5250
+$Comp
+L Device:R R?
+U 1 1 5ED397BE
+P 3200 4450
+AR Path="/5EB1ABF5/5ED397BE" Ref="R?"  Part="1" 
+AR Path="/5ED063DC/5ED397BE" Ref="R40"  Part="1" 
+F 0 "R40" H 3130 4404 50  0000 R CNN
+F 1 "10k" H 3130 4495 50  0000 R CNN
+F 2 "" V 3130 4450 50  0001 C CNN
+F 3 "~" H 3200 4450 50  0001 C CNN
+	1    3200 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED39DCF
+P 4600 4450
+AR Path="/5EB1ABF5/5ED39DCF" Ref="R?"  Part="1" 
+AR Path="/5ED063DC/5ED39DCF" Ref="R42"  Part="1" 
+F 0 "R42" H 4530 4404 50  0000 R CNN
+F 1 "10k" H 4530 4495 50  0000 R CNN
+F 2 "" V 4530 4450 50  0001 C CNN
+F 3 "~" H 4600 4450 50  0001 C CNN
+	1    4600 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0170
+U 1 1 5ED3A9F3
+P 3200 4300
+F 0 "#PWR0170" H 3200 4150 50  0001 C CNN
+F 1 "+3.3V" H 3215 4473 50  0000 C CNN
+F 2 "" H 3200 4300 50  0001 C CNN
+F 3 "" H 3200 4300 50  0001 C CNN
+	1    3200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0171
+U 1 1 5ED3AD43
+P 4600 4300
+F 0 "#PWR0171" H 4600 4150 50  0001 C CNN
+F 1 "+3.3V" H 4615 4473 50  0000 C CNN
+F 2 "" H 4600 4300 50  0001 C CNN
+F 3 "" H 4600 4300 50  0001 C CNN
+	1    4600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4600 3200 4750
+Wire Wire Line
+	4600 4600 4600 4750
+Text GLabel 3200 4700 2    50   Input ~ 0
+DISC_IN_1
+Text GLabel 4600 4700 2    50   Input ~ 0
+DISC_IN_2
+$Comp
+L Diode:DZ2S033X0L D?
+U 1 1 5ED42425
+P 4300 5100
+AR Path="/5EB1ABF5/5ED42425" Ref="D?"  Part="1" 
+AR Path="/5ED063DC/5ED42425" Ref="D13"  Part="1" 
+F 0 "D13" V 4200 5000 50  0000 L CNN
+F 1 "DZ2S033X0L" V 4800 5150 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 4300 4925 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03300L_E.pdf" H 4300 5100 50  0001 C CNN
+	1    4300 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:DZ2S033X0L D?
+U 1 1 5ED42A64
+P 2900 5100
+AR Path="/5EB1ABF5/5ED42A64" Ref="D?"  Part="1" 
+AR Path="/5ED063DC/5ED42A64" Ref="D12"  Part="1" 
+F 0 "D12" V 2800 5000 50  0000 L CNN
+F 1 "DZ2S033X0L" V 3400 5150 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 2900 4925 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03300L_E.pdf" H 2900 5100 50  0001 C CNN
+	1    2900 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 5250 3200 5250
+Connection ~ 3200 5250
+Wire Wire Line
+	3200 5250 3200 5350
+Wire Wire Line
+	4300 5250 4600 5250
+Connection ~ 4600 5250
+Wire Wire Line
+	4600 5250 4600 5350
+$Comp
+L Device:C C?
+U 1 1 5ED4F49A
+P 3900 5100
+AR Path="/5EB1ABF5/5ED4F49A" Ref="C?"  Part="1" 
+AR Path="/5ED063DC/5ED4F49A" Ref="C18"  Part="1" 
+F 0 "C18" H 4015 5146 50  0000 L CNN
+F 1 "100n" H 4015 5055 50  0000 L CNN
+F 2 "" H 3938 4950 50  0001 C CNN
+F 3 "~" H 3900 5100 50  0001 C CNN
+	1    3900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5ED50186
+P 2500 5100
+AR Path="/5EB1ABF5/5ED50186" Ref="C?"  Part="1" 
+AR Path="/5ED063DC/5ED50186" Ref="C17"  Part="1" 
+F 0 "C17" H 2615 5146 50  0000 L CNN
+F 1 "100n" H 2615 5055 50  0000 L CNN
+F 2 "" H 2538 4950 50  0001 C CNN
+F 3 "~" H 2500 5100 50  0001 C CNN
+	1    2500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4950 2900 4950
+Connection ~ 2900 4950
+Wire Wire Line
+	2500 5250 2900 5250
+Connection ~ 2900 5250
+Wire Wire Line
+	3900 5250 4300 5250
+Connection ~ 4300 5250
+Wire Wire Line
+	3900 4950 4300 4950
+Connection ~ 4300 4950
+$Comp
+L Device:R R?
+U 1 1 5ED59A94
+P 3900 4450
+AR Path="/5EB1ABF5/5ED59A94" Ref="R?"  Part="1" 
+AR Path="/5ED063DC/5ED59A94" Ref="R41"  Part="1" 
+F 0 "R41" H 3830 4404 50  0000 R CNN
+F 1 "10k" H 3830 4495 50  0000 R CNN
+F 2 "" V 3830 4450 50  0001 C CNN
+F 3 "~" H 3900 4450 50  0001 C CNN
+	1    3900 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED59EB1
+P 2500 4450
+AR Path="/5EB1ABF5/5ED59EB1" Ref="R?"  Part="1" 
+AR Path="/5ED063DC/5ED59EB1" Ref="R39"  Part="1" 
+F 0 "R39" H 2430 4404 50  0000 R CNN
+F 1 "10k" H 2430 4495 50  0000 R CNN
+F 2 "" V 2430 4450 50  0001 C CNN
+F 3 "~" H 2500 4450 50  0001 C CNN
+	1    2500 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 4600 2500 4950
+Connection ~ 2500 4950
+Wire Wire Line
+	3900 4600 3900 4950
+Connection ~ 3900 4950
+Text GLabel 2500 4300 1    50   Input ~ 0
+IN_DISC_1
+Text GLabel 3900 4300 1    50   Input ~ 0
+IN_DISC_2
+Wire Wire Line
+	1550 4800 1550 4500
+$EndSCHEMATC
