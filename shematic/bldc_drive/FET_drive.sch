@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -739,7 +739,7 @@ L Transistor_FET:IRF540N Q5
 U 1 1 5EAEAB10
 P 7950 5450
 F 0 "Q5" H 8154 5496 50  0000 L CNN
-F 1 "IRF540N" H 8154 5405 50  0000 L CNN
+F 1 "IRF1407" H 8154 5405 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8200 5375 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 7950 5450 50  0001 L CNN
 	1    7950 5450
@@ -767,7 +767,7 @@ L Transistor_FET:IRF540N Q7
 U 1 1 5EAE67B7
 P 9350 4450
 F 0 "Q7" H 9554 4496 50  0000 L CNN
-F 1 "IRF540N" H 9554 4405 50  0000 L CNN
+F 1 "IRF1407" H 9554 4405 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9600 4375 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 9350 4450 50  0001 L CNN
 	1    9350 4450
@@ -778,7 +778,7 @@ L Transistor_FET:IRF540N Q6
 U 1 1 5EAE5A45
 P 9350 3450
 F 0 "Q6" H 9554 3496 50  0000 L CNN
-F 1 "IRF540N" H 9554 3405 50  0000 L CNN
+F 1 "IRF1407" H 9554 3405 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9600 3375 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 9350 3450 50  0001 L CNN
 	1    9350 3450
@@ -789,7 +789,7 @@ L Transistor_FET:IRF540N Q4
 U 1 1 5EAE4842
 P 7950 4500
 F 0 "Q4" H 8100 4400 50  0000 L CNN
-F 1 "IRF540N" H 8100 4300 50  0000 L CNN
+F 1 "IRF1407" H 8100 4300 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8200 4425 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 7950 4500 50  0001 L CNN
 	1    7950 4500
@@ -800,7 +800,7 @@ L Transistor_FET:IRF540N Q3
 U 1 1 5EAE3EFC
 P 7950 3450
 F 0 "Q3" H 8100 3350 50  0000 L CNN
-F 1 "IRF540N" H 8100 3250 50  0000 L CNN
+F 1 "IRF1407" H 8100 3250 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8200 3375 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 7950 3450 50  0001 L CNN
 	1    7950 3450
@@ -811,7 +811,7 @@ L Transistor_FET:IRF540N Q2
 U 1 1 5EAE321A
 P 6400 4550
 F 0 "Q2" H 6604 4596 50  0000 L CNN
-F 1 "IRF540N" H 6604 4505 50  0000 L CNN
+F 1 "IRF1407" H 6604 4505 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6650 4475 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6400 4550 50  0001 L CNN
 	1    6400 4550
@@ -822,7 +822,7 @@ L Transistor_FET:IRF540N Q1
 U 1 1 5EAE1A7E
 P 6400 3450
 F 0 "Q1" H 6604 3496 50  0000 L CNN
-F 1 "IRF540N" H 6604 3405 50  0000 L CNN
+F 1 "IRF1407" H 6604 3405 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6650 3375 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6400 3450 50  0001 L CNN
 	1    6400 3450
