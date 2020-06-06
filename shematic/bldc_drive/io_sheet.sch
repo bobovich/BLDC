@@ -224,13 +224,6 @@ F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03300L_E.pdf" H
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9100 1250 9750 1250
-Wire Wire Line
-	9100 1250 9100 800 
-Connection ~ 9100 1250
-Wire Wire Line
-	9100 1600 9100 1250
-Wire Wire Line
 	9450 2700 9450 2600
 Wire Wire Line
 	9750 2600 9450 2600
@@ -599,4 +592,35 @@ Text GLabel 3900 4300 1    50   Input ~ 0
 IN_DISC_2
 Wire Wire Line
 	1550 4800 1550 4500
+$Comp
+L Diode:1N4148W D?
+U 1 1 5EDCFF6A
+P 9100 1000
+F 0 "D?" V 9100 1400 50  0000 R CNN
+F 1 "1N4148W" V 9000 1450 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9100 825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9100 1000 50  0001 C CNN
+	1    9100 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 850  9100 800 
+Wire Wire Line
+	9100 1150 9100 1250
+$Comp
+L Diode:1N4148W D?
+U 1 1 5EDD81B6
+P 9250 1250
+F 0 "D?" V 9250 1650 50  0000 R CNN
+F 1 "1N4148W" V 9150 1700 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9250 1075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9250 1250 50  0001 C CNN
+	1    9250 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 9100 1250
+Wire Wire Line
+	9100 1250 9100 1600
+Wire Wire Line
+	9400 1250 9750 1250
 $EndSCHEMATC
