@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS54140ADGQR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=11
+Version=1.1
+Released=2019-10-28 02:50:41
+Downloaded=2020-06-06 06:51:23
+3D=Y

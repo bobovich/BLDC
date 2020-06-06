@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS54140ADGQR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-28-02:50:41)
+    (mountForm default
+        (footprintRef "SOP50P490X110-11N")
+        (spec "System")
+    )
+)

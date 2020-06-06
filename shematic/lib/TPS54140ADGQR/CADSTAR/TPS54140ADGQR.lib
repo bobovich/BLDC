@@ -1,0 +1,18 @@
+.TPS54140ADGQR :1 ;3.5V to 42V Input, 1.5A Step-Down Converter with Eco-Mode
+SOP50P490X110-11N
+*STM IC
+*NGS
+*PLB 1="BOOT" 2="VIN" 3="EN" 4="SS/TR" 5="RT/CLK" 6="PWRGD" 7="VSENSE" 8="COMP" 9="GND" 10="PH" 11="EP"
+*MXP 11
+*DFN TPS54140ADGQR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS54140ADGQR)
+~!Arrow Part Number (TPS54140ADGQR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps54140adgqr/texas-instruments)
+~!Mouser Part Number (595-TPS54140ADGQR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS54140ADGQR?qs=Zv8nmyeoaKsySNAnFweR3g%3D%3D)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tps54140a)
+~!Height (1.1mm)
+~!3D_Model (TPS54140ADGQR)
+TPS54140ADGQR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 11.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name msop10)(type KiCad)(uri /home/ivan/mtc/shematic/lib/TPS54140ADGQR/KiCad)(options "")(descr ""))
+)

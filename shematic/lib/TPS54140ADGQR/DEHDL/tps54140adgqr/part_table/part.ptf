@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS54140ADGQR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS54140ADGQR" (!) = "", "SOP50P490X110-11N", "Small Outline Packages", "TPS54140ADGQR", "https://www.arrow.com/en/products/tps54140adgqr/texas-instruments", "595-TPS54140ADGQR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS54140ADGQR?qs=Zv8nmyeoaKsySNAnFweR3g%3D%3D", "3.5V to 42V Input, 1.5A Step-Down Converter with Eco-Mode", "http://www.ti.com/lit/gpn/tps54140a", "1.1 mm"
+END_PART
+
+END.
