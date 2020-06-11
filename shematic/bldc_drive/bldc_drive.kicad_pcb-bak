@@ -3938,7 +3938,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer F.Cu) (tedit 56DDBDB4) (tstamp 5EE2F175)
-    (at 245.364 68.834)
+    (at 110.93 52.34)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /5EDC2C23/5EF915A9)
@@ -3975,7 +3975,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer F.Cu) (tedit 56DDBDB4) (tstamp 5EE2F165)
-    (at 244.602 50.292)
+    (at 128.03 52.34)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /5EDC2C23/5EF90967)
@@ -4012,7 +4012,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer F.Cu) (tedit 56DDBDB4) (tstamp 5EE2F155)
-    (at 218.44 82.55)
+    (at 119.48 60.89)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /5EDC2C23/5EE55CF3)
@@ -4049,7 +4049,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer F.Cu) (tedit 56DDBDB4) (tstamp 5EE2F145)
-    (at 200.66 82.55)
+    (at 139.29 41.64)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /5EDC2C23/5EE556EC)
@@ -4086,7 +4086,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer F.Cu) (tedit 56DDBDB4) (tstamp 5EE2F135)
-    (at 209.804 82.55)
+    (at 150.14 25.64)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /5EDC2C23/5EE5535E)
@@ -4123,7 +4123,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer F.Cu) (tedit 56DDBDB4) (tstamp 5EE2F125)
-    (at 182.88 94.354101)
+    (at 110.93 60.89)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /5EDC2C23/5EE38E6C)
@@ -4160,7 +4160,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer F.Cu) (tedit 56DDBDB4) (tstamp 5EE2F115)
-    (at 173.99 94.312155)
+    (at 119.48 52.34)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /5EDC2C23/5EE38B5F)
@@ -4197,7 +4197,7 @@
   )
 
   (module MountingHole:MountingHole_3.5mm_Pad_Via (layer F.Cu) (tedit 56DDBDB4) (tstamp 5EE2F105)
-    (at 165.1 94.354101)
+    (at 149.14 34.19)
     (descr "Mounting Hole 3.5mm")
     (tags "mounting hole 3.5mm")
     (path /5EDC2C23/5EDC6E08)

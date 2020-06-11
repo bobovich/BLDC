@@ -30,7 +30,7 @@ U 1 1 5EB1BC37
 P 3600 3200
 F 0 "U11" H 3800 3800 50  0000 C CNN
 F 1 "MAX481E" H 3900 3700 50  0000 C CNN
-F 2 "" H 3600 2500 50  0001 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 3600 2500 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 3600 3250 50  0001 C CNN
 	1    3600 3200
 	1    0    0    -1  
@@ -58,7 +58,7 @@ U 1 1 5EB1DDEB
 P 5700 800
 F 0 "R32" V 5493 800 50  0000 C CNN
 F 1 "120R" V 5584 800 50  0000 C CNN
-F 2 "" V 5630 800 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5630 800 50  0001 C CNN
 F 3 "~" H 5700 800 50  0001 C CNN
 	1    5700 800 
 	0    1    1    0   
@@ -79,16 +79,8 @@ Wire Wire Line
 	5850 800  6250 800 
 Text Label 6250 800  0    50   ~ 0
 CAN_RES_SW
-Wire Wire Line
-	7450 950  7100 950 
-Wire Wire Line
-	8050 950  8400 950 
-Text Label 7100 950  0    50   ~ 0
-CAN_RES_SW
-Text Label 8150 950  0    50   ~ 0
-CAN_H
-Text Notes 8700 950  0    50   ~ 0
-SW1 CAN Term Resistor ON
+Text Notes 8050 1700 0    50   ~ 0
+ CAN Term Resistor ON
 Text GLabel 2850 1350 0    50   Input ~ 0
 CAN_TX
 Text GLabel 2850 1450 0    50   Input ~ 0
@@ -226,7 +218,7 @@ U 1 1 5EB2BBF3
 P 5800 1150
 F 0 "R33" V 5593 1150 50  0000 C CNN
 F 1 "120R" V 5684 1150 50  0000 C CNN
-F 2 "" V 5730 1150 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5730 1150 50  0001 C CNN
 F 3 "~" H 5800 1150 50  0001 C CNN
 	1    5800 1150
 	0    1    1    0   
@@ -271,16 +263,8 @@ Wire Wire Line
 	5950 1150 6400 1150
 Text Label 6000 1150 0    50   ~ 0
 RS485_TERM
-Text Label 7000 1050 0    50   ~ 0
-RS485_TERM
-Wire Wire Line
-	7000 1050 7450 1050
-Wire Wire Line
-	8050 1050 8400 1050
-Text Label 8100 1050 0    50   ~ 0
-RS485_B
-Text Notes 8700 1050 0    50   ~ 0
-SW2 RS485 Term Resistor ON
+Text Notes 8050 2050 0    50   ~ 0
+ RS485 Term Resistor ON
 Text GLabel 2850 3100 0    50   Input ~ 0
 RS485_RX
 Text GLabel 2850 3400 0    50   Input ~ 0
@@ -295,7 +279,7 @@ U 1 1 5EB36166
 P 2150 5450
 F 0 "C15" H 2265 5496 50  0000 L CNN
 F 1 "1u" H 2265 5405 50  0000 L CNN
-F 2 "" H 2188 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2188 5300 50  0001 C CNN
 F 3 "~" H 2150 5450 50  0001 C CNN
 	1    2150 5450
 	1    0    0    -1  
@@ -306,7 +290,7 @@ U 1 1 5EB365C9
 P 1800 5450
 F 0 "C14" H 1915 5496 50  0000 L CNN
 F 1 "1u" H 1915 5405 50  0000 L CNN
-F 2 "" H 1838 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1838 5300 50  0001 C CNN
 F 3 "~" H 1800 5450 50  0001 C CNN
 	1    1800 5450
 	1    0    0    -1  
@@ -387,7 +371,7 @@ U 1 1 5EB43A6E
 P 4550 5450
 F 0 "J2" H 4500 5800 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 4250 5700 50  0000 C CNN
-F 2 "" H 4550 5450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4550 5450 50  0001 C CNN
 F 3 "~" H 4550 5450 50  0001 C CNN
 	1    4550 5450
 	-1   0    0    -1  
@@ -431,18 +415,41 @@ Connection ~ 3700 5750
 Wire Wire Line
 	3700 5750 3700 5600
 $Comp
-L Switch:SW_DIP_x04 SW1
-U 1 1 5EB1EA3E
-P 7750 1150
-F 0 "SW1" H 7750 1617 50  0000 C CNN
-F 1 "SW_DIP_x04" H 7750 1526 50  0000 C CNN
-F 2 "" H 7750 1150 50  0001 C CNN
-F 3 "~" H 7750 1150 50  0001 C CNN
-	1    7750 1150
-	1    0    0    -1  
+L Connector:Conn_01x02_Male J4
+U 1 1 5EF64825
+P 7800 1650
+F 0 "J4" H 7908 1831 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 7908 1740 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 1650 50  0001 C CNN
+F 3 "~" H 7800 1650 50  0001 C CNN
+	1    7800 1650
+	-1   0    0    -1  
 $EndComp
-NoConn ~ 8050 1150
-NoConn ~ 8050 1250
-NoConn ~ 7450 1150
-NoConn ~ 7450 1250
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5EF65E29
+P 7800 1950
+F 0 "J5" H 7954 1762 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 8150 1650 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 1950 50  0001 C CNN
+F 3 "~" H 7800 1950 50  0001 C CNN
+	1    7800 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 1650 7300 1650
+Wire Wire Line
+	7600 1750 7300 1750
+Text Label 7300 1650 2    50   ~ 0
+CAN_H
+Text Label 7300 1750 2    50   ~ 0
+CAN_RES_SW
+Text Label 7300 2050 2    50   ~ 0
+RS485_TERM
+Text Label 7300 1950 2    50   ~ 0
+RS485_B
+Wire Wire Line
+	7600 2050 7300 2050
+Wire Wire Line
+	7600 1950 7300 1950
 $EndSCHEMATC
