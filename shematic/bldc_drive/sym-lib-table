@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name tps54140)(type Legacy)(uri /home/ivan/mtc/shematic/lib/TPS54140ADGQR/KiCad/TPS54140ADGQR.lib)(options "")(descr ""))
+  (lib (name bldc_drive-rescue)(type Legacy)(uri ${KIPRJMOD}/bldc_drive-rescue.lib)(options "")(descr ""))
 )

@@ -360,7 +360,7 @@ U 1 1 5EBF6A03
 P 10650 1800
 F 0 "U3" H 10420 1846 50  0000 R CNN
 F 1 "A1302KUA-T" H 10420 1755 50  0000 R CNN
-F 2 "Package_SIP:SIP3_11.6x8.5mm" H 10650 1450 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Wide" H 10650 1450 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx" H 10550 1800 50  0001 C CNN
 	1    10650 1800
 	-1   0    0    -1  
@@ -371,7 +371,7 @@ U 1 1 5EBF7C72
 P 10650 3300
 F 0 "U4" H 10420 3346 50  0000 R CNN
 F 1 "A1302KUA-T" H 10420 3255 50  0000 R CNN
-F 2 "Package_SIP:SIP3_11.6x8.5mm" H 10650 2950 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Wide" H 10650 2950 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx" H 10550 3300 50  0001 C CNN
 	1    10650 3300
 	-1   0    0    -1  
@@ -382,7 +382,7 @@ U 1 1 5EBF7F54
 P 10650 4750
 F 0 "U5" H 10420 4796 50  0000 R CNN
 F 1 "A1302KUA-T" H 10420 4705 50  0000 R CNN
-F 2 "Package_SIP:SIP3_11.6x8.5mm" H 10650 4400 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Wide" H 10650 4400 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx" H 10550 4750 50  0001 C CNN
 	1    10650 4750
 	-1   0    0    -1  
