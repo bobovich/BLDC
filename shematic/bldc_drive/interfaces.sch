@@ -30,7 +30,7 @@ U 1 1 5EB1BC37
 P 3600 3200
 F 0 "U11" H 3800 3800 50  0000 C CNN
 F 1 "MAX481E" H 3900 3700 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 3600 2500 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3600 2500 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 3600 3250 50  0001 C CNN
 	1    3600 3200
 	1    0    0    -1  
@@ -75,10 +75,6 @@ Text Label 5300 800  0    50   ~ 0
 CAN_L
 Wire Wire Line
 	5300 800  5550 800 
-Wire Wire Line
-	5850 800  6250 800 
-Text Label 6250 800  0    50   ~ 0
-CAN_RES_SW
 Text Notes 8050 1700 0    50   ~ 0
  CAN Term Resistor ON
 Text GLabel 2850 1350 0    50   Input ~ 0
@@ -259,10 +255,6 @@ Text Label 4150 3400 0    50   ~ 0
 RS485_A
 Text Label 5300 1150 0    50   ~ 0
 RS485_A
-Wire Wire Line
-	5950 1150 6400 1150
-Text Label 6000 1150 0    50   ~ 0
-RS485_TERM
 Text Notes 8050 2050 0    50   ~ 0
  RS485 Term Resistor ON
 Text GLabel 2850 3100 0    50   Input ~ 0
@@ -371,7 +363,7 @@ U 1 1 5EB43A6E
 P 4550 5450
 F 0 "J2" H 4500 5800 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 4250 5700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4550 5450 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 4550 5450 50  0001 C CNN
 F 3 "~" H 4550 5450 50  0001 C CNN
 	1    4550 5450
 	-1   0    0    -1  
@@ -438,18 +430,26 @@ F 3 "~" H 7800 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7600 1650 7300 1650
-Wire Wire Line
-	7600 1750 7300 1750
 Text Label 7300 1650 2    50   ~ 0
 CAN_H
-Text Label 7300 1750 2    50   ~ 0
-CAN_RES_SW
-Text Label 7300 2050 2    50   ~ 0
-RS485_TERM
 Text Label 7300 1950 2    50   ~ 0
 RS485_B
 Wire Wire Line
-	7600 2050 7300 2050
-Wire Wire Line
 	7600 1950 7300 1950
+Wire Wire Line
+	5850 800  6400 800 
+Text Label 6400 800  0    50   ~ 0
+CAN_H
+Wire Wire Line
+	7600 1750 7300 1750
+Text Label 7300 1750 2    50   ~ 0
+CAN_L
+Wire Wire Line
+	5950 1150 6400 1150
+Text Label 6400 1150 0    50   ~ 0
+RS485_B
+Wire Wire Line
+	7600 2050 7300 2050
+Text Label 7300 2050 2    50   ~ 0
+RS485_A
 $EndSCHEMATC

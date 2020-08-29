@@ -247,7 +247,7 @@ U 1 1 5EF89054
 P 4250 2500
 F 0 "U14" H 4250 2742 50  0000 C CNN
 F 1 "uA7812" H 4250 2651 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 4275 2350 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4275 2350 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/ua78.pdf" H 4250 2450 50  0001 C CNN
 	1    4250 2500
 	1    0    0    -1  
@@ -263,36 +263,6 @@ F 3 "" H 4250 2800 50  0001 C CNN
 	1    4250 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 2500 4650 2500
-$Comp
-L Mechanical:MountingHole_Pad H7
-U 1 1 5EF90967
-P 3950 2050
-F 0 "H7" H 4050 2200 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4050 2008 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 3950 2050 50  0001 C CNN
-F 3 "~" H 3950 2050 50  0001 C CNN
-	1    3950 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H8
-U 1 1 5EF915A9
-P 4650 2050
-F 0 "H8" H 4750 2200 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4750 2008 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 4650 2050 50  0001 C CNN
-F 3 "~" H 4650 2050 50  0001 C CNN
-	1    4650 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 2150 3950 2500
-Connection ~ 3950 2500
-Wire Wire Line
-	4650 2150 4650 2500
-Connection ~ 4650 2500
 $Comp
 L Device:D_Zener D15
 U 1 1 5EF9F773
@@ -351,16 +321,14 @@ F 3 "" H 1800 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 2500 5200 2500
-Wire Wire Line
 	1300 950  1300 1200
 Wire Wire Line
 	2300 950  2300 1200
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 5F3A7758
 P 3000 3450
-F 0 "H?" H 3100 3600 50  0000 L CNN
+F 0 "H2" H 3100 3600 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3100 3408 50  0001 L CNN
 F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 3000 3450 50  0001 C CNN
 F 3 "~" H 3000 3450 50  0001 C CNN
@@ -368,10 +336,10 @@ F 3 "~" H 3000 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C24
 U 1 1 5F3A7900
 P 3000 3700
-F 0 "C?" H 3115 3746 50  0000 L CNN
+F 0 "C24" H 3115 3746 50  0000 L CNN
 F 1 "1u" H 3115 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 3038 3550 50  0001 C CNN
 F 3 "~" H 3000 3700 50  0001 C CNN
@@ -379,14 +347,16 @@ F 3 "~" H 3000 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 5F3A972C
 P 3000 3850
-F 0 "#PWR?" H 3000 3600 50  0001 C CNN
+F 0 "#PWR05" H 3000 3600 50  0001 C CNN
 F 1 "GND" H 3005 3677 50  0000 C CNN
 F 2 "" H 3000 3850 50  0001 C CNN
 F 3 "" H 3000 3850 50  0001 C CNN
 	1    3000 3850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4550 2500 5200 2500
 $EndSCHEMATC

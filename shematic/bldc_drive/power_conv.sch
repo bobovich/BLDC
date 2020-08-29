@@ -263,36 +263,6 @@ F 3 "" H 4250 2800 50  0001 C CNN
 	1    4250 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 2500 4650 2500
-$Comp
-L Mechanical:MountingHole_Pad H7
-U 1 1 5EF90967
-P 3950 2050
-F 0 "H7" H 4050 2200 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4050 2008 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 3950 2050 50  0001 C CNN
-F 3 "~" H 3950 2050 50  0001 C CNN
-	1    3950 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H8
-U 1 1 5EF915A9
-P 4650 2050
-F 0 "H8" H 4750 2200 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4750 2008 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 4650 2050 50  0001 C CNN
-F 3 "~" H 4650 2050 50  0001 C CNN
-	1    4650 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 2150 3950 2500
-Connection ~ 3950 2500
-Wire Wire Line
-	4650 2150 4650 2500
-Connection ~ 4650 2500
 $Comp
 L Device:D_Zener D15
 U 1 1 5EF9F773
@@ -351,8 +321,6 @@ F 3 "" H 1800 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 2500 5200 2500
-Wire Wire Line
 	1300 950  1300 1200
 Wire Wire Line
 	2300 950  2300 1200
@@ -389,4 +357,6 @@ F 3 "" H 3000 3850 50  0001 C CNN
 	1    3000 3850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4550 2500 5200 2500
 $EndSCHEMATC

@@ -586,12 +586,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR0128
 U 1 1 5EC1D29F
-P 1750 3250
-F 0 "#PWR0128" H 1750 3100 50  0001 C CNN
-F 1 "+3V3" H 1765 3423 50  0000 C CNN
-F 2 "" H 1750 3250 50  0001 C CNN
-F 3 "" H 1750 3250 50  0001 C CNN
-	1    1750 3250
+P 1750 2650
+F 0 "#PWR0128" H 1750 2500 50  0001 C CNN
+F 1 "+3V3" H 1765 2823 50  0000 C CNN
+F 2 "" H 1750 2650 50  0001 C CNN
+F 3 "" H 1750 2650 50  0001 C CNN
+	1    1750 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -629,9 +629,7 @@ Connection ~ 1750 4000
 Wire Wire Line
 	1750 4000 1750 4050
 Wire Wire Line
-	2150 3550 2350 3550
-Wire Wire Line
-	2150 3650 2350 3650
+	2150 3650 2250 3650
 Text Label 2350 3550 0    50   ~ 0
 SDA
 Text Label 2350 3650 0    50   ~ 0
@@ -730,43 +728,6 @@ Wire Wire Line
 Text Label 3900 2550 2    50   ~ 0
 BOOT0
 $Comp
-L Device:Crystal Y1
-U 1 1 5EC44465
-P 2850 1300
-F 0 "Y1" H 2850 1568 50  0000 C CNN
-F 1 "Crystal" H 2850 1477 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-4H_Vertical" H 2850 1300 50  0001 C CNN
-F 3 "~" H 2850 1300 50  0001 C CNN
-	1    2850 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5EC477DC
-P 2500 1450
-F 0 "C3" H 2385 1404 50  0000 R CNN
-F 1 "15p" H 2385 1495 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 1300 50  0001 C CNN
-F 3 "~" H 2500 1450 50  0001 C CNN
-	1    2500 1450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5EC49099
-P 3200 1450
-F 0 "C6" H 3085 1404 50  0000 R CNN
-F 1 "15p" H 3085 1495 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3238 1300 50  0001 C CNN
-F 3 "~" H 3200 1450 50  0001 C CNN
-	1    3200 1450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2700 1300 2500 1300
-Wire Wire Line
-	3000 1300 3200 1300
-$Comp
 L power:GND #PWR0133
 U 1 1 5EC4DABE
 P 2850 1650
@@ -777,23 +738,6 @@ F 3 "" H 2850 1650 50  0001 C CNN
 	1    2850 1650
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 1600 2850 1600
-Wire Wire Line
-	2850 1650 2850 1600
-Connection ~ 2850 1600
-Wire Wire Line
-	2850 1600 3200 1600
-Wire Wire Line
-	3200 1300 3400 1300
-Connection ~ 3200 1300
-Text Label 3400 1300 2    50   ~ 0
-XT_IN
-Wire Wire Line
-	2500 1300 2300 1300
-Connection ~ 2500 1300
-Text Label 2300 1300 0    50   ~ 0
-XT_OUT
 Wire Wire Line
 	4550 2350 3900 2350
 Wire Wire Line
@@ -817,11 +761,7 @@ Wire Wire Line
 	1800 3300 1750 3300
 Connection ~ 1750 3300
 Wire Wire Line
-	1750 3300 1750 3250
-Wire Wire Line
 	2100 3300 2200 3300
-Wire Wire Line
-	2200 3300 2200 3750
 Connection ~ 2200 3750
 Wire Wire Line
 	2200 3750 2350 3750
@@ -831,7 +771,7 @@ U 1 1 5EC8DF79
 P 7850 1400
 F 0 "J1" H 7822 1282 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 7822 1373 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7850 1400 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 7850 1400 50  0001 C CNN
 F 3 "~" H 7850 1400 50  0001 C CNN
 	1    7850 1400
 	-1   0    0    1   
@@ -956,4 +896,75 @@ NoConn ~ 4550 2850
 NoConn ~ 4550 2950
 Text GLabel 3850 4350 0    50   Input ~ 0
 LOCK_H
+$Comp
+L Device:R R43
+U 1 1 5F5B00ED
+P 1950 3000
+F 0 "R43" V 1743 3000 50  0000 C CNN
+F 1 "10k" V 1834 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 3000 50  0001 C CNN
+F 3 "~" H 1950 3000 50  0001 C CNN
+	1    1950 3000
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 5F5B0607
+P 1950 2700
+F 0 "R38" V 1743 2700 50  0000 C CNN
+F 1 "10k" V 1834 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 2700 50  0001 C CNN
+F 3 "~" H 1950 2700 50  0001 C CNN
+	1    1950 2700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2200 3300 2200 3750
+Wire Wire Line
+	2150 3550 2350 3550
+Wire Wire Line
+	2100 3000 2150 3000
+Wire Wire Line
+	2150 3000 2150 3550
+Connection ~ 2150 3550
+Wire Wire Line
+	2100 2700 2250 2700
+Wire Wire Line
+	2250 2700 2250 3650
+Connection ~ 2250 3650
+Wire Wire Line
+	2250 3650 2350 3650
+Wire Wire Line
+	1800 2700 1750 2700
+Wire Wire Line
+	1750 2700 1750 2650
+Wire Wire Line
+	1750 2700 1750 3000
+Connection ~ 1750 2700
+Wire Wire Line
+	1800 3000 1750 3000
+Connection ~ 1750 3000
+Wire Wire Line
+	1750 3000 1750 3300
+$Comp
+L Device:Crystal_GND2_Small Y2
+U 1 1 5F5DD1F0
+P 2850 1400
+F 0 "Y2" H 2850 1625 50  0000 C CNN
+F 1 "Crystal_GND2_Small" H 2850 1534 50  0000 C CNN
+F 2 "" H 2850 1400 50  0001 C CNN
+F 3 "~" H 2850 1400 50  0001 C CNN
+	1    2850 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1500 2850 1650
+Wire Wire Line
+	2950 1400 3200 1400
+Wire Wire Line
+	2750 1400 2500 1400
+Text Label 3200 1400 0    50   ~ 0
+XT_OUT
+Text Label 2500 1400 2    50   ~ 0
+XT_IN
 $EndSCHEMATC

@@ -260,7 +260,7 @@ U 1 1 5EB36141
 P 1450 6700
 F 0 "C12" H 1568 6746 50  0000 L CNN
 F 1 "47 uF 35V" H 1568 6655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_8x6.2" H 1488 6550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1488 6550 50  0001 C CNN
 F 3 "~" H 1450 6700 50  0001 C CNN
 	1    1450 6700
 	1    0    0    -1  
@@ -757,11 +757,11 @@ Wire Wire Line
 Wire Wire Line
 	6500 3250 6500 2950
 Wire Wire Line
-	6500 3650 6500 4350
+	6500 3650 6500 4000
 Wire Wire Line
-	8050 3650 8050 4300
+	8050 3650 8050 4000
 Wire Wire Line
-	9450 3650 9450 4250
+	9450 3650 9450 4000
 $Comp
 L Transistor_FET:IRF540N Q7
 U 1 1 5EAE67B7
@@ -1128,4 +1128,52 @@ Wire Wire Line
 	7300 5450 6950 5450
 Text Label 6950 5450 0    50   ~ 0
 Lock_S
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F4CABDA
+P 6800 4000
+F 0 "H3" V 6754 4150 50  0000 L CNN
+F 1 "MountingHole_Pad" V 6845 4150 50  0000 L CNN
+F 2 "user_pads:MountingHole_6x2" H 6800 4000 50  0001 C CNN
+F 3 "~" H 6800 4000 50  0001 C CNN
+	1    6800 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F4CB400
+P 8350 4000
+F 0 "H4" V 8304 4150 50  0000 L CNN
+F 1 "MountingHole_Pad" V 8395 4150 50  0000 L CNN
+F 2 "user_pads:MountingHole_6x2" H 8350 4000 50  0001 C CNN
+F 3 "~" H 8350 4000 50  0001 C CNN
+	1    8350 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5F4CC292
+P 9900 4000
+F 0 "H6" V 9854 4150 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9945 4150 50  0000 L CNN
+F 2 "user_pads:MountingHole_6x2" H 9900 4000 50  0001 C CNN
+F 3 "~" H 9900 4000 50  0001 C CNN
+	1    9900 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9800 4000 9450 4000
+Connection ~ 9450 4000
+Wire Wire Line
+	9450 4000 9450 4250
+Wire Wire Line
+	8250 4000 8050 4000
+Connection ~ 8050 4000
+Wire Wire Line
+	8050 4000 8050 4300
+Wire Wire Line
+	6700 4000 6500 4000
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 4000 6500 4350
 $EndSCHEMATC
