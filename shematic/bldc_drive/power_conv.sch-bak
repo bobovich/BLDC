@@ -67,7 +67,7 @@ U 1 1 5EE40BB6
 P 2300 1650
 F 0 "L2" H 2300 1865 50  0000 C CNN
 F 1 "INDUCTOR" H 2300 1774 50  0000 C CNN
-F 2 "Inductor_THT:L_Axial_L20.0mm_D8.0mm_P25.40mm_Horizontal" H 2300 1650 50  0001 C CNN
+F 2 "Inductor_THT:L_Axial_L16.0mm_D6.3mm_P20.32mm_Horizontal_Fastron_VHBCC" H 2300 1650 50  0001 C CNN
 F 3 "~" H 2300 1650 50  0001 C CNN
 	1    2300 1650
 	0    1    -1   0   
@@ -78,7 +78,7 @@ U 1 1 5EE41759
 P 1300 1600
 F 0 "L1" H 1300 1815 50  0000 C CNN
 F 1 "INDUCTOR" H 1300 1724 50  0000 C CNN
-F 2 "Inductor_THT:L_Axial_L20.0mm_D8.0mm_P25.40mm_Horizontal" H 1300 1600 50  0001 C CNN
+F 2 "Inductor_THT:L_Axial_L16.0mm_D6.3mm_P20.32mm_Horizontal_Fastron_VHBCC" H 1300 1600 50  0001 C CNN
 F 3 "~" H 1300 1600 50  0001 C CNN
 	1    1300 1600
 	0    1    -1   0   
@@ -194,24 +194,11 @@ F 3 "~" H 6250 2750 50  0001 C CNN
 	1    6250 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:CP C32
-U 1 1 5EE775F3
-P 6600 2750
-F 0 "C32" H 6718 2796 50  0000 L CNN
-F 1 "CP" H 6718 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_8x5.4" H 6638 2600 50  0001 C CNN
-F 3 "~" H 6600 2750 50  0001 C CNN
-	1    6600 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5200 2600 5200 2500
 Connection ~ 5200 2500
 Wire Wire Line
 	6050 2500 6250 2500
-Wire Wire Line
-	6600 2500 6600 2600
 Wire Wire Line
 	6250 2600 6250 2500
 Connection ~ 6250 2500
@@ -219,8 +206,6 @@ Wire Wire Line
 	6250 2500 6600 2500
 Wire Wire Line
 	5200 2900 5750 2900
-Wire Wire Line
-	6600 2900 6250 2900
 Wire Wire Line
 	6250 2900 5750 2900
 Connection ~ 6250 2900
@@ -277,9 +262,6 @@ $EndComp
 Wire Wire Line
 	6900 2850 6900 2900
 Wire Wire Line
-	6900 2900 6600 2900
-Connection ~ 6600 2900
-Wire Wire Line
 	6600 2500 6900 2500
 Wire Wire Line
 	6900 2500 6900 2550
@@ -330,7 +312,7 @@ U 1 1 5F3A7758
 P 3000 3450
 F 0 "H2" H 3100 3600 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3100 3408 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 3000 3450 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 3000 3450 50  0001 C CNN
 F 3 "~" H 3000 3450 50  0001 C CNN
 	1    3000 3450
 	1    0    0    -1  
@@ -359,4 +341,6 @@ F 3 "" H 3000 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4550 2500 5200 2500
+Wire Wire Line
+	6250 2900 6900 2900
 $EndSCHEMATC

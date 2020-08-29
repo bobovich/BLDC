@@ -35,17 +35,6 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 3600 3
 	1    3600 3200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Logic_LevelTranslator:SN74AUP1T34DCK U12
-U 1 1 5EB1CE3F
-P 3600 4900
-F 0 "U12" H 3900 5250 50  0000 L CNN
-F 1 "SN74AUP1T34DCK" H 3900 5150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 3600 4200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf" H 3600 4300 50  0001 C CNN
-	1    3600 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 3200 3100 3200
 Wire Wire Line
@@ -142,72 +131,10 @@ Wire Wire Line
 Connection ~ 3100 3250
 Wire Wire Line
 	3100 3250 3100 3300
-Wire Wire Line
-	3700 4600 3700 4350
-Text Label 3700 5600 0    50   ~ 0
-ext_3v3
-Text Label 3700 4350 0    50   ~ 0
-ext_3v3
-$Comp
-L power:+3V3 #PWR0153
-U 1 1 5EB26243
-P 3500 4500
-F 0 "#PWR0153" H 3500 4350 50  0001 C CNN
-F 1 "+3V3" H 3515 4673 50  0000 C CNN
-F 2 "" H 3500 4500 50  0001 C CNN
-F 3 "" H 3500 4500 50  0001 C CNN
-	1    3500 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0154
-U 1 1 5EB269EF
-P 3500 5750
-F 0 "#PWR0154" H 3500 5600 50  0001 C CNN
-F 1 "+3V3" H 3515 5923 50  0000 C CNN
-F 2 "" H 3500 5750 50  0001 C CNN
-F 3 "" H 3500 5750 50  0001 C CNN
-	1    3500 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 4600 3500 4500
-$Comp
-L power:GND #PWR0155
-U 1 1 5EB277E9
-P 3600 6550
-F 0 "#PWR0155" H 3600 6300 50  0001 C CNN
-F 1 "GND" H 3605 6377 50  0000 C CNN
-F 2 "" H 3600 6550 50  0001 C CNN
-F 3 "" H 3600 6550 50  0001 C CNN
-	1    3600 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0156
-U 1 1 5EB28095
-P 3600 5250
-F 0 "#PWR0156" H 3600 5000 50  0001 C CNN
-F 1 "GND" H 3605 5077 50  0000 C CNN
-F 2 "" H 3600 5250 50  0001 C CNN
-F 3 "" H 3600 5250 50  0001 C CNN
-	1    3600 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 5250 3600 5200
-Text GLabel 4100 4900 2    50   Input ~ 0
-ext_TX
-Text GLabel 4100 6200 2    50   Input ~ 0
-ext_RX
-Wire Wire Line
-	4000 4900 4050 4900
-Text GLabel 3000 4900 0    50   Input ~ 0
+Text GLabel 4250 5350 0    50   Input ~ 0
 U2TX
-Text GLabel 3000 6200 0    50   Input ~ 0
+Text GLabel 4250 5450 0    50   Input ~ 0
 U2RX
-Wire Wire Line
-	3000 4900 3200 4900
 $Comp
 L Device:R R33
 U 1 1 5EB2BBF3
@@ -265,92 +192,6 @@ Wire Wire Line
 	2850 3400 3200 3400
 Wire Wire Line
 	2850 3100 3200 3100
-$Comp
-L Device:C C15
-U 1 1 5EB36166
-P 2150 5450
-F 0 "C15" H 2265 5496 50  0000 L CNN
-F 1 "1u" H 2265 5405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2188 5300 50  0001 C CNN
-F 3 "~" H 2150 5450 50  0001 C CNN
-	1    2150 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C14
-U 1 1 5EB365C9
-P 1800 5450
-F 0 "C14" H 1915 5496 50  0000 L CNN
-F 1 "1u" H 1915 5405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1838 5300 50  0001 C CNN
-F 3 "~" H 1800 5450 50  0001 C CNN
-	1    1800 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0157
-U 1 1 5EB3682B
-P 1800 5700
-F 0 "#PWR0157" H 1800 5450 50  0001 C CNN
-F 1 "GND" H 1805 5527 50  0000 C CNN
-F 2 "" H 1800 5700 50  0001 C CNN
-F 3 "" H 1800 5700 50  0001 C CNN
-	1    1800 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0158
-U 1 1 5EB36BF0
-P 2150 5700
-F 0 "#PWR0158" H 2150 5450 50  0001 C CNN
-F 1 "GND" H 2155 5527 50  0000 C CNN
-F 2 "" H 2150 5700 50  0001 C CNN
-F 3 "" H 2150 5700 50  0001 C CNN
-	1    2150 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 5700 2150 5600
-Wire Wire Line
-	1800 5700 1800 5600
-$Comp
-L power:+3V3 #PWR0159
-U 1 1 5EB37F65
-P 1800 5200
-F 0 "#PWR0159" H 1800 5050 50  0001 C CNN
-F 1 "+3V3" H 1815 5373 50  0000 C CNN
-F 2 "" H 1800 5200 50  0001 C CNN
-F 3 "" H 1800 5200 50  0001 C CNN
-	1    1800 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 5300 1800 5200
-Wire Wire Line
-	2150 5300 2150 5100
-Text Label 2150 5100 0    50   ~ 0
-ext_3v3
-$Comp
-L Logic_LevelTranslator:SN74AUP1T34DCK U13
-U 1 1 5EB1D336
-P 3600 6200
-F 0 "U13" H 3250 5900 50  0000 L CNN
-F 1 "SN74AUP1T34DCK" H 2650 5750 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 3600 5500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf" H 3600 5600 50  0001 C CNN
-	1    3600 6200
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 5900 3700 5750
-Wire Wire Line
-	3500 5900 3500 5750
-Wire Wire Line
-	4000 6200 4050 6200
-Wire Wire Line
-	3600 6550 3600 6500
-Wire Wire Line
-	3000 6200 3200 6200
 Text Notes 1950 4500 0    118  ~ 0
 RS232 TTL
 Text Notes 2000 2650 0    118  ~ 0
@@ -380,32 +221,9 @@ F 3 "" H 4300 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 5350 4050 4900
-Connection ~ 4050 4900
-Wire Wire Line
-	4050 4900 4100 4900
-Wire Wire Line
-	4050 5450 4050 6200
-Connection ~ 4050 6200
-Wire Wire Line
-	4050 6200 4100 6200
-Wire Wire Line
-	4350 5350 4050 5350
-Wire Wire Line
-	4350 5450 4050 5450
-Wire Wire Line
 	4300 5700 4300 5650
 Wire Wire Line
 	4300 5650 4350 5650
-Wire Wire Line
-	4350 5550 4150 5550
-Wire Wire Line
-	4150 5550 4150 5750
-Wire Wire Line
-	4150 5750 3700 5750
-Connection ~ 3700 5750
-Wire Wire Line
-	3700 5750 3700 5600
 $Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 5EF64825
@@ -452,4 +270,13 @@ Wire Wire Line
 	7600 2050 7300 2050
 Text Label 7300 2050 2    50   ~ 0
 RS485_A
+Wire Wire Line
+	4350 5550 4300 5550
+Wire Wire Line
+	4300 5550 4300 5650
+Connection ~ 4300 5650
+Wire Wire Line
+	4250 5450 4350 5450
+Wire Wire Line
+	4250 5350 4350 5350
 $EndSCHEMATC
