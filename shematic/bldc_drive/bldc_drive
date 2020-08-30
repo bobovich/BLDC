@@ -1,0 +1,63 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/home/ivan/mtc/shematic/bldc_drive/bldc_drive.sch</h1>
+    <p>Вс 30 авг 2020 21:28:22</p>
+    <p>Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1</p>
+    <p><b>Component Count:</b>107</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1</td><td>1</td><td>100n</td><td>Device:C</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C2, C4, C5, C7, C8, C13, C20, C21</td><td>8</td><td>1u</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C9, C10, C11</td><td>3</td><td>10 uF 35V</td><td>Device:CP</td><td>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>C12</td><td>1</td><td>47 uF 35V</td><td>Device:CP</td><td>Capacitor_SMD:C_1206_3216Metric</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>C19</td><td>1</td><td>2u2</td><td>Device:C</td><td>Capacitor_SMD:C_1206_3216Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C22, C24</td><td>2</td><td>1u</td><td>Device:C</td><td>Capacitor_SMD:C_1206_3216Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C23, C33</td><td>2</td><td>2200uf</td><td>Device:CP</td><td>Capacitor_THT:CP_Radial_D18.0mm_P7.50mm</td><td>Polarized capacitor</td><td></td></tr>
+    <tr><td>C30, C31</td><td>2</td><td>C</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>D1, D2, D3, D4, D7</td><td>5</td><td>1N4148WS</td><td>Diode:1N4148WS</td><td>Diode_SMD:D_SOD-123</td><td>75V 0.15A Fast switching Diode, SOD-323</td><td></td></tr>
+    <tr><td>D5, D14, D16</td><td>3</td><td>DZ2S033X0L</td><td>Diode:DZ2S033X0L</td><td>Diode_SMD:D_SOD-523</td><td>150mW Silicon Planar Zener Diode, 3.3V, SOD-523</td><td></td></tr>
+    <tr><td>D9, D10</td><td>2</td><td>1N4148W</td><td>Diode:1N4148W</td><td>Diode_SMD:D_SOD-123</td><td>75V 0.15A Fast Switching Diode, SOD-123</td><td></td></tr>
+    <tr><td>D15</td><td>1</td><td>D_Zener</td><td>Device:D_Zener</td><td>Diode_SMD:D_SMB</td><td>Zener diode</td><td></td></tr>
+    <tr><td>H1, H5</td><td>2</td><td>MountingHole_Pad</td><td>Mechanical:MountingHole_Pad</td><td>MountingHole:MountingHole_3.5mm_Pad_Via</td><td>Mounting Hole with connection</td><td></td></tr>
+    <tr><td>H2</td><td>1</td><td>MountingHole_Pad</td><td>Mechanical:MountingHole_Pad</td><td>MountingHole:MountingHole_4.3mm_M4_Pad_Via</td><td>Mounting Hole with connection</td><td></td></tr>
+    <tr><td>H3, H4, H6</td><td>3</td><td>MountingHole_Pad</td><td>Mechanical:MountingHole_Pad</td><td>user_pads:MountingHole_6x2</td><td>Mounting Hole with connection</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>Conn_01x04_Male</td><td>Connector:Conn_01x04_Male</td><td>Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>Conn_01x04_Male</td><td>Connector:Conn_01x04_Male</td><td>Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>Conn_01x04_Male</td><td>Connector:Conn_01x04_Male</td><td>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J4, J5</td><td>2</td><td>Conn_01x02_Male</td><td>Connector:Conn_01x02_Male</td><td>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>L1, L2</td><td>2</td><td>INDUCTOR</td><td>pspice:INDUCTOR</td><td>Inductor_THT:L_Axial_L16.0mm_D6.3mm_P20.32mm_Horizontal_Fastron_VHBCC</td><td>Inductor symbol for simulation only</td><td></td></tr>
+    <tr><td>Q1, Q2, Q3, Q4, Q5, Q6, Q7</td><td>7</td><td>IRF1407</td><td>Transistor_FET:IRF540N</td><td>Package_TO_SOT_THT:TO-220-3_Vertical</td><td>33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220</td><td></td></tr>
+    <tr><td>Q9</td><td>1</td><td>BC817</td><td>Transistor_BJT:BC817</td><td>Package_TO_SOT_SMD:SOT-23</td><td>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</td><td></td></tr>
+    <tr><td>Q10</td><td>1</td><td>BC807</td><td>Transistor_BJT:BC807</td><td>Package_TO_SOT_SMD:SOT-23</td><td>0.8A Ic, 45V Vce, PNP Transistor, SOT-23</td><td></td></tr>
+    <tr><td>R1, R2, R5, R6, R7</td><td>5</td><td>R</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R3, R4, R14, R38, R43</td><td>5</td><td>10k</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R8, R9, R10, R11, R12, R13</td><td>6</td><td>56R</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R15, R35</td><td>2</td><td>1k</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R16, R17, R21, R22, R28, R29</td><td>6</td><td>4R7</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R18, R19, R20, R24, R25, R26, R30, R31</td><td>8</td><td>1k</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R23</td><td>1</td><td>560R</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R27</td><td>1</td><td>0R05</td><td>Device:R</td><td>Resistor_SMD:R_4020_10251Metric_Pad1.65x5.30mm_HandSolder</td><td>Resistor</td><td></td></tr>
+    <tr><td>R32, R33</td><td>2</td><td>120R</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R45, R47</td><td>2</td><td>4k7</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R46, R48</td><td>2</td><td>2k2</td><td>Device:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>24LC08</td><td>Memory_EEPROM:24LC08</td><td>Package_SO:SO-8_3.9x4.9mm_P1.27mm</td><td>I2C Serial EEPROM, 8Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8</td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>STM32F042C6Tx</td><td>MCU_ST_STM32F0:STM32F042C6Tx</td><td>Package_QFP:LQFP-48_7x7mm_P0.5mm</td><td>ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 38 GPIO, LQFP-48</td><td></td></tr>
+    <tr><td>U3, U4, U5</td><td>3</td><td>A1302KUA-T</td><td>Sensor_Magnetic:A1302KUA-T</td><td>Package_TO_SOT_THT:TO-92_Wide</td><td>Linear Hall Effect Sensor, SIP 3pin</td><td></td></tr>
+    <tr><td>U6, U7, U8</td><td>3</td><td>IR2304</td><td>Driver_FET:IR2304</td><td>Package_SO:SO-8_3.9x4.9mm_P1.27mm</td><td>Half-Bridge Driver, 600V, 60/130mA, PDIP-8/SOIC-8</td><td></td></tr>
+    <tr><td>U9</td><td>1</td><td>INA193</td><td>Amplifier_Current:INA193</td><td>Package_TO_SOT_SMD:SOT-23-5</td><td>Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5</td><td></td></tr>
+    <tr><td>U10</td><td>1</td><td>TJA1051T</td><td>Interface_CAN_LIN:TJA1051T</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>High-Speed CAN Transceiver, silent mode, SOIC-8</td><td></td></tr>
+    <tr><td>U11</td><td>1</td><td>MAX481E</td><td>Interface_UART:MAX481E</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8</td><td></td></tr>
+    <tr><td>U14</td><td>1</td><td>uA7812</td><td>Regulator_Linear:uA7812</td><td>Package_TO_SOT_THT:TO-220-3_Vertical</td><td>Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263</td><td></td></tr>
+    <tr><td>U15</td><td>1</td><td>AP1117-33</td><td>Regulator_Linear:AP1117-33</td><td>Package_TO_SOT_SMD:SOT-223-3_TabPin2</td><td>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</td><td></td></tr>
+    <tr><td>Y2</td><td>1</td><td>Crystal_GND2_Small</td><td>Device:Crystal_GND2_Small</td><td>Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm</td><td>Three pin crystal, GND on pin 2, small symbol</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
