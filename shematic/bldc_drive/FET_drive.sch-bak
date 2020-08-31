@@ -757,10 +757,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 3250 6500 2950
 Wire Wire Line
-	6500 3650 6500 4000
-Wire Wire Line
-	8050 3650 8050 4000
-Wire Wire Line
 	9450 3650 9450 4000
 $Comp
 L Transistor_FET:IRF540N Q7
@@ -1131,23 +1127,23 @@ Lock_S
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5F4CABDA
-P 6800 4000
-F 0 "H3" V 6754 4150 50  0000 L CNN
-F 1 "MountingHole_Pad" V 6845 4150 50  0000 L CNN
-F 2 "user_pads:MountingHole_6x2" H 6800 4000 50  0001 C CNN
-F 3 "~" H 6800 4000 50  0001 C CNN
-	1    6800 4000
+P 8200 4100
+F 0 "H3" V 8154 4250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 8245 4250 50  0000 L CNN
+F 2 "user_pads:MountingHole_6x2" H 8200 4100 50  0001 C CNN
+F 3 "~" H 8200 4100 50  0001 C CNN
+	1    8200 4100
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5F4CB400
-P 8350 4000
-F 0 "H4" V 8304 4150 50  0000 L CNN
-F 1 "MountingHole_Pad" V 8395 4150 50  0000 L CNN
-F 2 "user_pads:MountingHole_6x2" H 8350 4000 50  0001 C CNN
-F 3 "~" H 8350 4000 50  0001 C CNN
-	1    8350 4000
+P 6700 4100
+F 0 "H4" V 6654 4250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 6745 4250 50  0000 L CNN
+F 2 "user_pads:MountingHole_6x2" H 6700 4100 50  0001 C CNN
+F 3 "~" H 6700 4100 50  0001 C CNN
+	1    6700 4100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1167,13 +1163,17 @@ Connection ~ 9450 4000
 Wire Wire Line
 	9450 4000 9450 4250
 Wire Wire Line
-	8250 4000 8050 4000
-Connection ~ 8050 4000
+	6500 3650 6500 4100
 Wire Wire Line
-	8050 4000 8050 4300
+	8050 3650 8050 4100
 Wire Wire Line
-	6700 4000 6500 4000
-Connection ~ 6500 4000
+	8100 4100 8050 4100
+Connection ~ 8050 4100
 Wire Wire Line
-	6500 4000 6500 4350
+	8050 4100 8050 4300
+Wire Wire Line
+	6600 4100 6500 4100
+Connection ~ 6500 4100
+Wire Wire Line
+	6500 4100 6500 4350
 $EndSCHEMATC
