@@ -578,7 +578,7 @@ U 1 1 5EC1BAB0
 P 1750 3650
 F 0 "U1" H 1450 4100 50  0000 C CNN
 F 1 "24LC08" H 1450 4000 50  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 1750 3650 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1750 3650 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21710J.pdf" H 1750 3650 50  0001 C CNN
 	1    1750 3650
 	1    0    0    -1  
