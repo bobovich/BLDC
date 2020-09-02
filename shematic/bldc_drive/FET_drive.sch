@@ -14,45 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Driver_FET:IR2304 U?
-U 1 1 5EACF915
-P 3050 1950
-AR Path="/5EAC8274/5EACF915" Ref="U?"  Part="1" 
-AR Path="/5EACE430/5EACF915" Ref="U6"  Part="1" 
-F 0 "U6" H 2650 2450 50  0000 C CNN
-F 1 "IR2304" H 2650 2350 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 1950 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/ir2304.pdf?fileId=5546d462533600a4015355c9954a16e0" H 3050 1950 50  0001 C CNN
-	1    3050 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Driver_FET:IR2304 U?
-U 1 1 5EACF91B
-P 3050 3650
-AR Path="/5EAC8274/5EACF91B" Ref="U?"  Part="1" 
-AR Path="/5EACE430/5EACF91B" Ref="U7"  Part="1" 
-F 0 "U7" H 2600 4050 50  0000 C CNN
-F 1 "IR2304" H 2650 3950 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 3650 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/ir2304.pdf?fileId=5546d462533600a4015355c9954a16e0" H 3050 3650 50  0001 C CNN
-	1    3050 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Driver_FET:IR2304 U?
-U 1 1 5EACF921
-P 3050 5200
-AR Path="/5EAC8274/5EACF921" Ref="U?"  Part="1" 
-AR Path="/5EACE430/5EACF921" Ref="U8"  Part="1" 
-F 0 "U8" H 2650 5700 50  0000 C CNN
-F 1 "IR2304" H 2650 5600 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 5200 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/ir2304.pdf?fileId=5546d462533600a4015355c9954a16e0" H 3050 5200 50  0001 C CNN
-	1    3050 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR032
 U 1 1 5EAD00DD
 P 1450 7050
@@ -1176,4 +1137,37 @@ Wire Wire Line
 Connection ~ 6500 4100
 Wire Wire Line
 	6500 4100 6500 4350
+$Comp
+L Driver_FET:IR2101 U6
+U 1 1 5F508908
+P 3050 1950
+F 0 "U6" H 3050 2631 50  0000 C CNN
+F 1 "IR2101" H 3050 2540 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 1950 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c" H 3050 1950 50  0001 C CNN
+	1    3050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_FET:IR2101 U7
+U 1 1 5F50A091
+P 3050 3650
+F 0 "U7" H 3050 4331 50  0000 C CNN
+F 1 "IR2101" H 3050 4240 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 3650 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c" H 3050 3650 50  0001 C CNN
+	1    3050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_FET:IR2101 U8
+U 1 1 5F50ABDC
+P 3050 5200
+F 0 "U8" H 3050 5881 50  0000 C CNN
+F 1 "IR2101" H 3050 5790 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 5200 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c" H 3050 5200 50  0001 C CNN
+	1    3050 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
